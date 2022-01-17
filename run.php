@@ -26,7 +26,7 @@ if($jsondata->status == "true"){
   echo "===================================\n";
   echo " Nama : ".$jsondata->data->atasnama."\n";
   echo " No Rekening : ".$jsondata->data->norek."\n";
-  echo " Jenis BANK : ".$jsondata->data->bank."\n"run;
+  echo " Jenis BANK : ".$jsondata->data->bank."\n";
   echo "===================================\n";
 }else{
   echo "===================================\n";
